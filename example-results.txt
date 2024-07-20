@@ -1,0 +1,637 @@
+STARTING SUITE FOR 4 CONCURRENT USERS
+---------
+User count 4. Running vvlow config with 0.25 cpu and 1g memory
+Starting container...
+2024-07-20T17:13:50.078Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 22.299 seconds (process running for 24.683)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         1300, 21.64, 21.64
+Duration      [total, attack, wait]             1m0s, 1m0s, 5.902ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.359ms, 184.822ms, 96.213ms, 201.866ms, 298.386ms, 402.759ms, 28.272s
+Bytes In      [total, mean]                     268591579, 206608.91
+Bytes Out     [total, mean]                     111104, 85.46
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1300  
+Error Set:
+-----
+---------
+User count 4. Running vlow config with 0.5 cpu and 1g memory
+Starting container...
+2024-07-20T17:16:13.514Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 9.089 seconds (process running for 10.078)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         8863, 147.60, 147.58
+Duration      [total, attack, wait]             1m0s, 1m0s, 8.536ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  991.64µs, 27.042ms, 6.413ms, 88.773ms, 93.458ms, 100.02ms, 254.926ms
+Bytes In      [total, mean]                     1983892572, 223839.85
+Bytes Out     [total, mean]                     756224, 85.32
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:8863  
+Error Set:
+-----
+---------
+User count 4. Running low config with 1 cpu and 1g memory
+Starting container...
+2024-07-20T17:18:27.976Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 4.338 seconds (process running for 4.768)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         26754, 445.89, 445.80
+Duration      [total, attack, wait]             1m0s, 1m0s, 12.443ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  874.319µs, 8.891ms, 5.703ms, 14.922ms, 36.949ms, 65.684ms, 235.186ms
+Bytes In      [total, mean]                     5768038293, 215595.36
+Bytes Out     [total, mean]                     2283008, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:26754  
+Error Set:
+-----
+---------
+User count 4. Running med config with 2 cpu and 2g memory
+Starting container...
+2024-07-20T17:20:35.259Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.385 seconds (process running for 2.754)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         37068, 617.78, 617.63
+Duration      [total, attack, wait]             1m0s, 1m0s, 14.549ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  938.49µs, 6.395ms, 5.63ms, 12.917ms, 14.161ms, 16.371ms, 85.521ms
+Bytes In      [total, mean]                     8173056775, 220488.20
+Bytes Out     [total, mean]                     3163136, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:37068  
+Error Set:
+-----
+---------
+User count 4. Running high config with 4 cpu and 4g memory
+Starting container...
+2024-07-20T17:22:44.035Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.119 seconds (process running for 2.488)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         36731, 612.17, 612.10
+Duration      [total, attack, wait]             1m0s, 1m0s, 6.044ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  899.195µs, 6.447ms, 5.795ms, 13.099ms, 14.641ms, 15.981ms, 65.026ms
+Bytes In      [total, mean]                     7896027204, 214969.02
+Bytes Out     [total, mean]                     3134464, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:36731  
+Error Set:
+-----
+---------
+User count 4. Running vhigh config with 8 cpu and 8g memory
+Starting container...
+2024-07-20T17:24:52.937Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.094 seconds (process running for 2.444)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         37158, 619.29, 619.15
+Duration      [total, attack, wait]             1m0s, 1m0s, 14.175ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.103ms, 6.374ms, 5.62ms, 12.619ms, 13.862ms, 15.402ms, 93.325ms
+Bytes In      [total, mean]                     8732676515, 235014.71
+Bytes Out     [total, mean]                     3170816, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:37158  
+Error Set:
+-----
+---------
+User count 4. Running vvhigh config with 16 cpu and 8g memory
+Starting container...
+2024-07-20T17:27:01.830Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.053 seconds (process running for 2.426)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         37879, 631.29, 631.21
+Duration      [total, attack, wait]             1m0s, 1m0s, 7.938ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  901.35µs, 6.253ms, 5.622ms, 12.654ms, 13.948ms, 15.67ms, 77.582ms
+Bytes In      [total, mean]                     8160067004, 215424.56
+Bytes Out     [total, mean]                     3232256, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:37879  
+Error Set:
+-----
+STARTING SUITE FOR 8 CONCURRENT USERS
+---------
+User count 8. Running vvlow config with 0.25 cpu and 1g memory
+Starting container...
+2024-07-20T17:29:31.058Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 20.703 seconds (process running for 22.779)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         2835, 47.19, 47.03
+Duration      [total, attack, wait]             1m0s, 1m0s, 200.168ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.268ms, 169.587ms, 100.906ms, 315.251ms, 466.953ms, 748.196ms, 6.986s
+Bytes In      [total, mean]                     624798148, 220387.35
+Bytes Out     [total, mean]                     242056, 85.38
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:2835  
+Error Set:
+-----
+---------
+User count 8. Running vlow config with 0.5 cpu and 1g memory
+Starting container...
+2024-07-20T17:31:56.517Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 9.113 seconds (process running for 10.002)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         8494, 141.57, 141.34
+Duration      [total, attack, wait]             1m0s, 1m0s, 96.344ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.178ms, 56.422ms, 63.905ms, 101.792ms, 158.818ms, 208.34ms, 593.196ms
+Bytes In      [total, mean]                     1804986783, 212501.39
+Bytes Out     [total, mean]                     724992, 85.35
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:8494  
+Error Set:
+-----
+---------
+User count 8. Running low config with 1 cpu and 1g memory
+Starting container...
+2024-07-20T17:34:28.465Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 4.195 seconds (process running for 4.626)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         22447, 373.87, 373.78
+Duration      [total, attack, wait]             1m0s, 1m0s, 13.085ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  948.699µs, 21.247ms, 7.484ms, 75.466ms, 81.684ms, 90.695ms, 183.5ms
+Bytes In      [total, mean]                     4930131982, 219634.34
+Bytes Out     [total, mean]                     1915392, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:22447  
+Error Set:
+-----
+---------
+User count 8. Running med config with 2 cpu and 2g memory
+Starting container...
+2024-07-20T17:36:34.743Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.196 seconds (process running for 2.44)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         46073, 767.86, 767.50
+Duration      [total, attack, wait]             1m0s, 1m0s, 28.639ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  798.435µs, 10.286ms, 6.966ms, 16.669ms, 31.926ms, 60.066ms, 200.53ms
+Bytes In      [total, mean]                     9776653605, 212199.20
+Bytes Out     [total, mean]                     3931648, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:46073  
+Error Set:
+-----
+---------
+User count 8. Running high config with 4 cpu and 4g memory
+Starting container...
+2024-07-20T17:38:43.601Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.003 seconds (process running for 2.382)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         49495, 824.92, 824.56
+Duration      [total, attack, wait]             1m0s, 1m0s, 26.247ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  807.904µs, 9.583ms, 6.643ms, 16.036ms, 23.245ms, 59.488ms, 228.385ms
+Bytes In      [total, mean]                     10927733807, 220784.60
+Bytes Out     [total, mean]                     4223488, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:49495  
+Error Set:
+-----
+---------
+User count 8. Running vhigh config with 8 cpu and 8g memory
+Starting container...
+2024-07-20T17:40:52.961Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.015 seconds (process running for 2.431)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         49386, 823.05, 822.74
+Duration      [total, attack, wait]             1m0s, 1m0s, 22.762ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  877.264µs, 9.599ms, 6.651ms, 16.01ms, 23.813ms, 59.367ms, 309.288ms
+Bytes In      [total, mean]                     10523080883, 213078.22
+Bytes Out     [total, mean]                     4214272, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:49386  
+Error Set:
+-----
+---------
+User count 8. Running vvhigh config with 16 cpu and 8g memory
+Starting container...
+2024-07-20T17:43:02.104Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.019 seconds (process running for 2.442)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         48197, 803.27, 802.89
+Duration      [total, attack, wait]             1m0s, 1m0s, 28.395ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  853.359µs, 9.851ms, 6.666ms, 16.049ms, 26.177ms, 63.703ms, 249.331ms
+Bytes In      [total, mean]                     10285705629, 213409.67
+Bytes Out     [total, mean]                     4112896, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:48197  
+Error Set:
+-----
+STARTING SUITE FOR 16 CONCURRENT USERS
+---------
+User count 16. Running vvlow config with 0.25 cpu and 1g memory
+Starting container...
+2024-07-20T17:45:32.888Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 21.404 seconds (process running for 23.866)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         2403, 40.01, 39.80
+Duration      [total, attack, wait]             1m0s, 1m0s, 308.322ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  2.309ms, 400.908ms, 287.279ms, 735.68ms, 1.087s, 2.86s, 10.474s
+Bytes In      [total, mean]                     524092894, 218099.41
+Bytes Out     [total, mean]                     205192, 85.39
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:2403  
+Error Set:
+-----
+---------
+User count 16. Running vlow config with 0.5 cpu and 1g memory
+Starting container...
+2024-07-20T17:47:57.246Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 9.006 seconds (process running for 10.007)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         6885, 114.61, 114.40
+Duration      [total, attack, wait]             1m0s, 1m0s, 111.059ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.584ms, 139.471ms, 101.475ms, 294.592ms, 304.788ms, 536.94ms, 1.2s
+Bytes In      [total, mean]                     1469590100, 213448.09
+Bytes Out     [total, mean]                     587656, 85.35
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:6885  
+Error Set:
+-----
+---------
+User count 16. Running low config with 1 cpu and 1g memory
+Starting container...
+2024-07-20T17:50:02.290Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 4.299 seconds (process running for 4.767)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         18671, 311.18, 311.07
+Duration      [total, attack, wait]             1m0s, 1m0s, 21.152ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.183ms, 51.084ms, 23.396ms, 99.816ms, 106.468ms, 196.042ms, 381.411ms
+Bytes In      [total, mean]                     3978558509, 213087.60
+Bytes Out     [total, mean]                     1593344, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:18671  
+Error Set:
+-----
+---------
+User count 16. Running med config with 2 cpu and 2g memory
+Starting container...
+2024-07-20T17:52:07.878Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.164 seconds (process running for 2.407)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         44661, 744.34, 743.62
+Duration      [total, attack, wait]             1m0s, 1m0s, 58.735ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  882.664µs, 21.37ms, 13.257ms, 46.91ms, 67.558ms, 125.197ms, 575.541ms
+Bytes In      [total, mean]                     9004411926, 201616.89
+Bytes Out     [total, mean]                     3811208, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:44661  
+Error Set:
+-----
+---------
+User count 16. Running high config with 4 cpu and 4g memory
+Starting container...
+2024-07-20T17:54:17.113Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.093 seconds (process running for 2.528)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         49409, 823.48, 822.73
+Duration      [total, attack, wait]             1m0s, 1m0s, 55.056ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.124ms, 19.317ms, 12.457ms, 35.541ms, 57.925ms, 122.71ms, 587.251ms
+Bytes In      [total, mean]                     10357181139, 209621.35
+Bytes Out     [total, mean]                     4216320, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:49409  
+Error Set:
+-----
+---------
+User count 16. Running vhigh config with 8 cpu and 8g memory
+Starting container...
+2024-07-20T17:56:25.913Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.07 seconds (process running for 2.428)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         48990, 816.48, 815.75
+Duration      [total, attack, wait]             1m0s, 1m0s, 53.795ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.06ms, 19.492ms, 12.508ms, 36.024ms, 59.22ms, 123.153ms, 508.782ms
+Bytes In      [total, mean]                     10237696176, 208975.22
+Bytes Out     [total, mean]                     4180480, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:48990  
+Error Set:
+-----
+---------
+User count 16. Running vvhigh config with 16 cpu and 8g memory
+Starting container...
+2024-07-20T17:58:34.873Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.077 seconds (process running for 2.459)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         50100, 834.99, 834.23
+Duration      [total, attack, wait]             1m0s, 1m0s, 54.741ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.04ms, 19.056ms, 12.36ms, 34.805ms, 57.509ms, 118.696ms, 501.546ms
+Bytes In      [total, mean]                     11069062900, 220939.38
+Bytes Out     [total, mean]                     4275200, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:50100  
+Error Set:
+-----
+STARTING SUITE FOR 32 CONCURRENT USERS
+---------
+User count 32. Running vvlow config with 0.25 cpu and 1g memory
+Starting container...
+2024-07-20T18:01:04.897Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 21.094 seconds (process running for 23.267)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         2442, 40.65, 40.25
+Duration      [total, attack, wait]             1m1s, 1m0s, 601.503ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  2.371ms, 789.495ms, 671.52ms, 1.395s, 1.774s, 3.516s, 5.07s
+Bytes In      [total, mean]                     548523309, 224620.52
+Bytes Out     [total, mean]                     208384, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:2442  
+Error Set:
+-----
+---------
+User count 32. Running vlow config with 0.5 cpu and 1g memory
+Starting container...
+2024-07-20T18:03:30.320Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 9.185 seconds (process running for 10.089)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         7142, 118.89, 118.49
+Duration      [total, attack, wait]             1m0s, 1m0s, 203.244ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.362ms, 269.305ms, 209.737ms, 492.507ms, 558.034ms, 790.55ms, 1.304s
+Bytes In      [total, mean]                     1528617021, 214032.07
+Bytes Out     [total, mean]                     609476, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:7142  
+Error Set:
+-----
+---------
+User count 32. Running low config with 1 cpu and 1g memory
+Starting container...
+2024-07-20T18:05:45.588Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 4.398 seconds (process running for 4.814)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         17722, 295.17, 294.66
+Duration      [total, attack, wait]             1m0s, 1m0s, 104.443ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.167ms, 108.124ms, 98.278ms, 196.275ms, 210.092ms, 295.639ms, 497.12ms
+Bytes In      [total, mean]                     3851061521, 217304.00
+Bytes Out     [total, mean]                     1512448, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:17722  
+Error Set:
+-----
+---------
+User count 32. Running med config with 2 cpu and 2g memory
+Starting container...
+2024-07-20T18:07:51.213Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.128 seconds (process running for 2.368)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         44412, 740.18, 739.17
+Duration      [total, attack, wait]             1m0s, 1m0s, 81.909ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.09ms, 43.074ms, 35.069ms, 79.182ms, 94.714ms, 155.606ms, 515.38ms
+Bytes In      [total, mean]                     9661839987, 217550.21
+Bytes Out     [total, mean]                     3789824, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:44412  
+Error Set:
+-----
+---------
+User count 32. Running high config with 4 cpu and 4g memory
+Starting container...
+2024-07-20T18:09:59.825Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 1.752 seconds (process running for 1.986)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         47484, 791.34, 790.28
+Duration      [total, attack, wait]             1m0s, 1m0s, 81.127ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  990.337µs, 40.321ms, 31.685ms, 68.954ms, 91.005ms, 168.116ms, 757.849ms
+Bytes In      [total, mean]                     10334829527, 217648.67
+Bytes Out     [total, mean]                     4051968, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:47484  
+Error Set:
+-----
+---------
+User count 32. Running vhigh config with 8 cpu and 8g memory
+Starting container...
+2024-07-20T18:12:09.614Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.021 seconds (process running for 2.442)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         48342, 805.68, 804.40
+Duration      [total, attack, wait]             1m0s, 1m0s, 95.826ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.055ms, 39.611ms, 30.86ms, 67.429ms, 89.305ms, 159.649ms, 768.582ms
+Bytes In      [total, mean]                     10356207022, 214227.94
+Bytes Out     [total, mean]                     4125184, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:48342  
+Error Set:
+-----
+---------
+User count 32. Running vvhigh config with 16 cpu and 8g memory
+Starting container...
+2024-07-20T18:14:18.736Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.128 seconds (process running for 2.496)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         49542, 825.68, 824.33
+Duration      [total, attack, wait]             1m0s, 1m0s, 98.542ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.222ms, 38.651ms, 29.832ms, 63.415ms, 87.475ms, 156.58ms, 468.035ms
+Bytes In      [total, mean]                     10546196514, 212873.85
+Bytes Out     [total, mean]                     4227584, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:49542  
+Error Set:
+-----
+STARTING SUITE FOR 64 CONCURRENT USERS
+---------
+User count 64. Running vvlow config with 0.25 cpu and 1g memory
+Starting container...
+2024-07-20T18:16:49.369Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 21.099 seconds (process running for 23.473)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         1224, 20.38, 19.78
+Duration      [total, attack, wait]             1m2s, 1m0s, 1.807s
+Latencies     [min, mean, 50, 90, 95, 99, max]  3.973ms, 3.188s, 1.914s, 4.736s, 15.94s, 22.766s, 25.575s
+Bytes In      [total, mean]                     263715998, 215454.25
+Bytes Out     [total, mean]                     104448, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1224  
+Error Set:
+-----
+---------
+User count 64. Running vlow config with 0.5 cpu and 1g memory
+Starting container...
+2024-07-20T18:19:16.016Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 9.387 seconds (process running for 10.294)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         7422, 123.70, 122.28
+Duration      [total, attack, wait]             1m1s, 1m0s, 695.038ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.397ms, 520.492ms, 490.72ms, 893.171ms, 1.01s, 1.374s, 2.703s
+Bytes In      [total, mean]                     1566155057, 211015.23
+Bytes Out     [total, mean]                     633344, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:7422  
+Error Set:
+-----
+---------
+User count 64. Running low config with 1 cpu and 1g memory
+Starting container...
+2024-07-20T18:21:19.157Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 4.479 seconds (process running for 4.895)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         17332, 288.73, 288.09
+Duration      [total, attack, wait]             1m0s, 1m0s, 133.432ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.169ms, 221.575ms, 198.569ms, 385.564ms, 412.414ms, 592.69ms, 1.028s
+Bytes In      [total, mean]                     3730052192, 215211.87
+Bytes Out     [total, mean]                     1479168, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:17332  
+Error Set:
+-----
+---------
+User count 64. Running med config with 2 cpu and 2g memory
+Starting container...
+2024-07-20T18:23:24.849Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.149 seconds (process running for 2.387)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         44143, 735.69, 734.09
+Duration      [total, attack, wait]             1m0s, 1m0s, 130.668ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  914.604µs, 86.881ms, 80.91ms, 143.843ms, 183.762ms, 236.393ms, 631.732ms
+Bytes In      [total, mean]                     9334359816, 211457.31
+Bytes Out     [total, mean]                     3766784, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:44143  
+Error Set:
+-----
+---------
+User count 64. Running high config with 4 cpu and 4g memory
+Starting container...
+2024-07-20T18:25:33.970Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.014 seconds (process running for 2.367)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         48958, 815.95, 813.92
+Duration      [total, attack, wait]             1m0s, 1m0s, 149.611ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.01ms, 78.367ms, 60.955ms, 123.976ms, 173.714ms, 222.448ms, 550.25ms
+Bytes In      [total, mean]                     10379326653, 212004.71
+Bytes Out     [total, mean]                     4177920, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:48958  
+Error Set:
+-----
+---------
+User count 64. Running vhigh config with 8 cpu and 8g memory
+Starting container...
+2024-07-20T18:27:43.042Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 1.844 seconds (process running for 2.095)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         48389, 806.48, 804.51
+Duration      [total, attack, wait]             1m0s, 1m0s, 146.757ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.015ms, 79.292ms, 61.608ms, 126.538ms, 176.863ms, 217.993ms, 615.163ms
+Bytes In      [total, mean]                     10465848385, 216285.69
+Bytes Out     [total, mean]                     4129280, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:48389  
+Error Set:
+-----
+---------
+User count 64. Running vvhigh config with 16 cpu and 8g memory
+Starting container...
+2024-07-20T18:29:52.887Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.076 seconds (process running for 2.443)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         49472, 824.51, 822.64
+Duration      [total, attack, wait]             1m0s, 1m0s, 136.429ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  951.584µs, 77.56ms, 59.978ms, 122.472ms, 173.284ms, 215.029ms, 705.974ms
+Bytes In      [total, mean]                     10492979271, 212099.35
+Bytes Out     [total, mean]                     4221636, 85.33
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:49472  
+Error Set:
+-----
+STARTING SUITE FOR 128 CONCURRENT USERS
+---------
+User count 128. Running vvlow config with 0.25 cpu and 1g memory
+Starting container...
+2024-07-20T18:32:23.216Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 20.998 seconds (process running for 23.363)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         1841, 30.64, 29.61
+Duration      [total, attack, wait]             1m2s, 1m0s, 2.1s
+Latencies     [min, mean, 50, 90, 95, 99, max]  2.277ms, 4.244s, 3.56s, 7.986s, 10.572s, 14.221s, 21.96s
+Bytes In      [total, mean]                     396425286, 215331.50
+Bytes Out     [total, mean]                     157184, 85.38
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1841  
+Error Set:
+-----
+---------
+User count 128. Running vlow config with 0.5 cpu and 1g memory
+Starting container...
+2024-07-20T18:34:50.682Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 9.511 seconds (process running for 10.501)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         6749, 112.41, 110.74
+Duration      [total, attack, wait]             1m1s, 1m0s, 905.834ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.453ms, 1.147s, 993.366ms, 1.894s, 2.455s, 3.598s, 7.891s
+Bytes In      [total, mean]                     1455996439, 215735.14
+Bytes Out     [total, mean]                     576000, 85.35
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:6749  
+Error Set:
+-----
+---------
+User count 128. Running low config with 1 cpu and 1g memory
+Starting container...
+2024-07-20T18:37:05.057Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 4.402 seconds (process running for 4.833)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         1111, 18.52, 11.36
+Duration      [total, attack, wait]             1m23s, 1m0s, 23.071s
+Latencies     [min, mean, 50, 90, 95, 99, max]  6.347ms, 8.104s, 3.477s, 30s, 30s, 30s, 30.029s
+Bytes In      [total, mean]                     48361288, 43529.51
+Bytes Out     [total, mean]                     94720, 85.26
+Success       [ratio]                           84.97%
+Status Codes  [code:count]                      0:167  200:944  
+Error Set:
+context deadline exceeded (Client.Timeout or context cancellation while reading body)
+-----
+---------
+User count 128. Running med config with 2 cpu and 2g memory
+Starting container...
+2024-07-20T18:40:03.649Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.142 seconds (process running for 2.397)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         41878, 697.95, 694.79
+Duration      [total, attack, wait]             1m0s, 1m0s, 273.538ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.335ms, 183.503ms, 168.419ms, 300.08ms, 386.876ms, 514.079ms, 1.12s
+Bytes In      [total, mean]                     9909043850, 236616.93
+Bytes Out     [total, mean]                     3573760, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:41878  
+Error Set:
+-----
+---------
+User count 128. Running high config with 4 cpu and 4g memory
+Starting container...
+2024-07-20T18:42:12.824Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.009 seconds (process running for 2.374)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         49317, 821.95, 818.23
+Duration      [total, attack, wait]             1m0s, 1m0s, 273.023ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.069ms, 155.919ms, 117.697ms, 234.989ms, 313.622ms, 429.139ms, 801.61ms
+Bytes In      [total, mean]                     10530465885, 213526.08
+Bytes Out     [total, mean]                     4208520, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:49317  
+Error Set:
+-----
+---------
+User count 128. Running vhigh config with 8 cpu and 8g memory
+Starting container...
+2024-07-20T18:44:21.781Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 1.748 seconds (process running for 1.98)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         48699, 811.60, 808.13
+Duration      [total, attack, wait]             1m0s, 1m0s, 257.378ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  1.019ms, 157.88ms, 119.095ms, 240.53ms, 326.861ms, 437.367ms, 993.181ms
+Bytes In      [total, mean]                     10413983207, 213843.88
+Bytes Out     [total, mean]                     4155784, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:48699  
+Error Set:
+-----
+---------
+User count 128. Running vvhigh config with 16 cpu and 8g memory
+Starting container...
+2024-07-20T18:46:31.639Z  INFO 1 --- [java-perf-example] [           main] c.g.s.JavaPerfExampleApplicationKt       : Started JavaPerfExampleApplicationKt in 2.089 seconds (process running for 2.458)
+Running warmup...
+Running benchmark...
+Requests      [total, rate, throughput]         49287, 821.44, 818.05
+Duration      [total, attack, wait]             1m0s, 1m0s, 248.965ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  993.353µs, 155.986ms, 119.508ms, 232.448ms, 312.984ms, 426.03ms, 846.484ms
+Bytes In      [total, mean]                     10789553122, 218912.76
+Bytes Out     [total, mean]                     4205960, 85.34
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:49287  
+Error Set:
+-----
